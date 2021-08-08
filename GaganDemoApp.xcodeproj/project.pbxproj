@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12FDE657AAD040DA11DBFAC0 /* libPods-GaganDemoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED05AE6FD404ECC21AC193B2 /* libPods-GaganDemoAppTests.a */; };
+		61066B845B77C6107B3C2898 /* libPods-GaganDemoApp-GaganDemoAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D00D6FD969D108A59A49F82 /* libPods-GaganDemoApp-GaganDemoAppUITests.a */; };
+		7385B85F709AA2EE40D0A1B6 /* libPods-GaganDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ADBD6C4EF41B2B031DA75F /* libPods-GaganDemoApp.a */; };
+		EAAB65EB26BF7DAC00D0EDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB65EA26BF7DAC00D0EDCA /* AppDelegate.swift */; };
+		EAAB65ED26BF7DAC00D0EDCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB65EC26BF7DAC00D0EDCA /* SceneDelegate.swift */; };
+		EAAB65EF26BF7DAC00D0EDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB65EE26BF7DAC00D0EDCA /* ViewController.swift */; };
+		EAAB65F226BF7DAC00D0EDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAB65F026BF7DAC00D0EDCA /* Main.storyboard */; };
+		EAAB65F526BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAAB65F326BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodeld */; };
+		EAAB65F726BF7DB200D0EDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAB65F626BF7DB200D0EDCA /* Assets.xcassets */; };
+		EAAB65FA26BF7DB200D0EDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAB65F826BF7DB200D0EDCA /* LaunchScreen.storyboard */; };
+		EAAB660526BF7DB300D0EDCA /* GaganDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB660426BF7DB300D0EDCA /* GaganDemoAppTests.swift */; };
+		EAAB661026BF7DB300D0EDCA /* GaganDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB660F26BF7DB300D0EDCA /* GaganDemoAppUITests.swift */; };
+		EAAB663E26BFAB8000D0EDCA /* Demotest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAB663D26BFAB8000D0EDCA /* Demotest.storyboard */; };
+		EAAB664326BFABAC00D0EDCA /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB664226BFABAC00D0EDCA /* FirstPageViewController.swift */; };
+		EAAB664826BFABBD00D0EDCA /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB664726BFABBD00D0EDCA /* SecondPageViewController.swift */; };
+		EAAB664D26BFABE000D0EDCA /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB664C26BFABE000D0EDCA /* JsonModel.swift */; };
+		EAAB665226BFABEF00D0EDCA /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB665126BFABEF00D0EDCA /* ApiManager.swift */; };
+		EAAB665726BFAC1300D0EDCA /* FruitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB665626BFAC1300D0EDCA /* FruitsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAB660126BF7DB200D0EDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAB65DF26BF7DAC00D0EDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAB65E626BF7DAC00D0EDCA;
+			remoteInfo = GaganDemoApp;
+		};
+		EAAB660C26BF7DB300D0EDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAB65DF26BF7DAC00D0EDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAB65E626BF7DAC00D0EDCA;
+			remoteInfo = GaganDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D00D6FD969D108A59A49F82 /* libPods-GaganDemoApp-GaganDemoAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaganDemoApp-GaganDemoAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD0C77DDDBF1F1FD54EEF59 /* Pods-GaganDemoApp-GaganDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoApp-GaganDemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GaganDemoApp-GaganDemoAppUITests/Pods-GaganDemoApp-GaganDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F510A32B8D84017772E2BAF /* Pods-GaganDemoApp-GaganDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoApp-GaganDemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GaganDemoApp-GaganDemoAppUITests/Pods-GaganDemoApp-GaganDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F81046EA913D2A2C00F69DB /* Pods-GaganDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoApp.release.xcconfig"; path = "Target Support Files/Pods-GaganDemoApp/Pods-GaganDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		90647000369F1133FE4C295C /* Pods-GaganDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-GaganDemoApp/Pods-GaganDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9673114AA30781517FD4EC4B /* Pods-GaganDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GaganDemoAppTests/Pods-GaganDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C17A2B1CD7877E0718A4F8C /* Pods-GaganDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaganDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-GaganDemoAppTests/Pods-GaganDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0ADBD6C4EF41B2B031DA75F /* libPods-GaganDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaganDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB65E726BF7DAC00D0EDCA /* GaganDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaganDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB65EA26BF7DAC00D0EDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAB65EC26BF7DAC00D0EDCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAAB65EE26BF7DAC00D0EDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAAB65F126BF7DAC00D0EDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAB65F426BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GaganDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		EAAB65F626BF7DB200D0EDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAB65F926BF7DB200D0EDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAAB65FB26BF7DB200D0EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB660026BF7DB200D0EDCA /* GaganDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaganDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB660426BF7DB300D0EDCA /* GaganDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaganDemoAppTests.swift; sourceTree = "<group>"; };
+		EAAB660626BF7DB300D0EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB660B26BF7DB300D0EDCA /* GaganDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaganDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB660F26BF7DB300D0EDCA /* GaganDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaganDemoAppUITests.swift; sourceTree = "<group>"; };
+		EAAB661126BF7DB300D0EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB663D26BFAB8000D0EDCA /* Demotest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demotest.storyboard; sourceTree = "<group>"; };
+		EAAB664226BFABAC00D0EDCA /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		EAAB664726BFABBD00D0EDCA /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		EAAB664C26BFABE000D0EDCA /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		EAAB665126BFABEF00D0EDCA /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		EAAB665626BFAC1300D0EDCA /* FruitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewCell.swift; sourceTree = "<group>"; };
+		ED05AE6FD404ECC21AC193B2 /* libPods-GaganDemoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaganDemoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAB65E426BF7DAC00D0EDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7385B85F709AA2EE40D0A1B6 /* libPods-GaganDemoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB65FD26BF7DB200D0EDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FDE657AAD040DA11DBFAC0 /* libPods-GaganDemoAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB660826BF7DB300D0EDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61066B845B77C6107B3C2898 /* libPods-GaganDemoApp-GaganDemoAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056F7F2FE9E85E277EE53B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0ADBD6C4EF41B2B031DA75F /* libPods-GaganDemoApp.a */,
+				2D00D6FD969D108A59A49F82 /* libPods-GaganDemoApp-GaganDemoAppUITests.a */,
+				ED05AE6FD404ECC21AC193B2 /* libPods-GaganDemoAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728B8F888A144DDBD261B0B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90647000369F1133FE4C295C /* Pods-GaganDemoApp.debug.xcconfig */,
+				7F81046EA913D2A2C00F69DB /* Pods-GaganDemoApp.release.xcconfig */,
+				3CD0C77DDDBF1F1FD54EEF59 /* Pods-GaganDemoApp-GaganDemoAppUITests.debug.xcconfig */,
+				7F510A32B8D84017772E2BAF /* Pods-GaganDemoApp-GaganDemoAppUITests.release.xcconfig */,
+				9673114AA30781517FD4EC4B /* Pods-GaganDemoAppTests.debug.xcconfig */,
+				9C17A2B1CD7877E0718A4F8C /* Pods-GaganDemoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAAB65DE26BF7DAC00D0EDCA = {
+			isa = PBXGroup;
+			children = (
+				EAAB65E926BF7DAC00D0EDCA /* GaganDemoApp */,
+				EAAB660326BF7DB200D0EDCA /* GaganDemoAppTests */,
+				EAAB660E26BF7DB300D0EDCA /* GaganDemoAppUITests */,
+				EAAB65E826BF7DAC00D0EDCA /* Products */,
+				728B8F888A144DDBD261B0B9 /* Pods */,
+				056F7F2FE9E85E277EE53B1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAB65E826BF7DAC00D0EDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB65E726BF7DAC00D0EDCA /* GaganDemoApp.app */,
+				EAAB660026BF7DB200D0EDCA /* GaganDemoAppTests.xctest */,
+				EAAB660B26BF7DB300D0EDCA /* GaganDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAB65E926BF7DAC00D0EDCA /* GaganDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB65EA26BF7DAC00D0EDCA /* AppDelegate.swift */,
+				EAAB65EC26BF7DAC00D0EDCA /* SceneDelegate.swift */,
+				EAAB65EE26BF7DAC00D0EDCA /* ViewController.swift */,
+				EAAB65F026BF7DAC00D0EDCA /* Main.storyboard */,
+				EAAB65F626BF7DB200D0EDCA /* Assets.xcassets */,
+				EAAB65F826BF7DB200D0EDCA /* LaunchScreen.storyboard */,
+				EAAB65FB26BF7DB200D0EDCA /* Info.plist */,
+				EAAB65F326BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodeld */,
+				EAAB663D26BFAB8000D0EDCA /* Demotest.storyboard */,
+				EAAB664226BFABAC00D0EDCA /* FirstPageViewController.swift */,
+				EAAB664726BFABBD00D0EDCA /* SecondPageViewController.swift */,
+				EAAB664C26BFABE000D0EDCA /* JsonModel.swift */,
+				EAAB665126BFABEF00D0EDCA /* ApiManager.swift */,
+				EAAB665626BFAC1300D0EDCA /* FruitsTableViewCell.swift */,
+			);
+			path = GaganDemoApp;
+			sourceTree = "<group>";
+		};
+		EAAB660326BF7DB200D0EDCA /* GaganDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB660426BF7DB300D0EDCA /* GaganDemoAppTests.swift */,
+				EAAB660626BF7DB300D0EDCA /* Info.plist */,
+			);
+			path = GaganDemoAppTests;
+			sourceTree = "<group>";
+		};
+		EAAB660E26BF7DB300D0EDCA /* GaganDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB660F26BF7DB300D0EDCA /* GaganDemoAppUITests.swift */,
+				EAAB661126BF7DB300D0EDCA /* Info.plist */,
+			);
+			path = GaganDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAB65E626BF7DAC00D0EDCA /* GaganDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAB661426BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoApp" */;
+			buildPhases = (
+				3E07AD930324A7B2632223A5 /* [CP] Check Pods Manifest.lock */,
+				EAAB65E326BF7DAC00D0EDCA /* Sources */,
+				EAAB65E426BF7DAC00D0EDCA /* Frameworks */,
+				EAAB65E526BF7DAC00D0EDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaganDemoApp;
+			productName = GaganDemoApp;
+			productReference = EAAB65E726BF7DAC00D0EDCA /* GaganDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAB65FF26BF7DB200D0EDCA /* GaganDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAB661726BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoAppTests" */;
+			buildPhases = (
+				EB3D72A9DE6C6B30E928C4C7 /* [CP] Check Pods Manifest.lock */,
+				EAAB65FC26BF7DB200D0EDCA /* Sources */,
+				EAAB65FD26BF7DB200D0EDCA /* Frameworks */,
+				EAAB65FE26BF7DB200D0EDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAB660226BF7DB200D0EDCA /* PBXTargetDependency */,
+			);
+			name = GaganDemoAppTests;
+			productName = GaganDemoAppTests;
+			productReference = EAAB660026BF7DB200D0EDCA /* GaganDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAAB660A26BF7DB300D0EDCA /* GaganDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAB661A26BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoAppUITests" */;
+			buildPhases = (
+				406E107CE5C3C640732AE7FD /* [CP] Check Pods Manifest.lock */,
+				EAAB660726BF7DB300D0EDCA /* Sources */,
+				EAAB660826BF7DB300D0EDCA /* Frameworks */,
+				EAAB660926BF7DB300D0EDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAB660D26BF7DB300D0EDCA /* PBXTargetDependency */,
+			);
+			name = GaganDemoAppUITests;
+			productName = GaganDemoAppUITests;
+			productReference = EAAB660B26BF7DB300D0EDCA /* GaganDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAB65DF26BF7DAC00D0EDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EAAB65E626BF7DAC00D0EDCA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EAAB65FF26BF7DB200D0EDCA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAAB65E626BF7DAC00D0EDCA;
+					};
+					EAAB660A26BF7DB300D0EDCA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAAB65E626BF7DAC00D0EDCA;
+					};
+				};
+			};
+			buildConfigurationList = EAAB65E226BF7DAC00D0EDCA /* Build configuration list for PBXProject "GaganDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAB65DE26BF7DAC00D0EDCA;
+			productRefGroup = EAAB65E826BF7DAC00D0EDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAB65E626BF7DAC00D0EDCA /* GaganDemoApp */,
+				EAAB65FF26BF7DB200D0EDCA /* GaganDemoAppTests */,
+				EAAB660A26BF7DB300D0EDCA /* GaganDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAB65E526BF7DAC00D0EDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAB65FA26BF7DB200D0EDCA /* LaunchScreen.storyboard in Resources */,
+				EAAB65F726BF7DB200D0EDCA /* Assets.xcassets in Resources */,
+				EAAB65F226BF7DAC00D0EDCA /* Main.storyboard in Resources */,
+				EAAB663E26BFAB8000D0EDCA /* Demotest.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB65FE26BF7DB200D0EDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB660926BF7DB300D0EDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E07AD930324A7B2632223A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaganDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406E107CE5C3C640732AE7FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaganDemoApp-GaganDemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3D72A9DE6C6B30E928C4C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaganDemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAB65E326BF7DAC00D0EDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAB665226BFABEF00D0EDCA /* ApiManager.swift in Sources */,
+				EAAB65EF26BF7DAC00D0EDCA /* ViewController.swift in Sources */,
+				EAAB65F526BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodeld in Sources */,
+				EAAB664326BFABAC00D0EDCA /* FirstPageViewController.swift in Sources */,
+				EAAB665726BFAC1300D0EDCA /* FruitsTableViewCell.swift in Sources */,
+				EAAB664826BFABBD00D0EDCA /* SecondPageViewController.swift in Sources */,
+				EAAB65EB26BF7DAC00D0EDCA /* AppDelegate.swift in Sources */,
+				EAAB664D26BFABE000D0EDCA /* JsonModel.swift in Sources */,
+				EAAB65ED26BF7DAC00D0EDCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB65FC26BF7DB200D0EDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAB660526BF7DB300D0EDCA /* GaganDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAB660726BF7DB300D0EDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAB661026BF7DB300D0EDCA /* GaganDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAB660226BF7DB200D0EDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAB65E626BF7DAC00D0EDCA /* GaganDemoApp */;
+			targetProxy = EAAB660126BF7DB200D0EDCA /* PBXContainerItemProxy */;
+		};
+		EAAB660D26BF7DB300D0EDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAB65E626BF7DAC00D0EDCA /* GaganDemoApp */;
+			targetProxy = EAAB660C26BF7DB300D0EDCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAAB65F026BF7DAC00D0EDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAB65F126BF7DAC00D0EDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAAB65F826BF7DB200D0EDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAB65F926BF7DB200D0EDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAB661226BF7DB300D0EDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAAB661326BF7DB300D0EDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAB661526BF7DB300D0EDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90647000369F1133FE4C295C /* Pods-GaganDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAB661626BF7DB300D0EDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F81046EA913D2A2C00F69DB /* Pods-GaganDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAAB661826BF7DB300D0EDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9673114AA30781517FD4EC4B /* Pods-GaganDemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaganDemoApp.app/GaganDemoApp";
+			};
+			name = Debug;
+		};
+		EAAB661926BF7DB300D0EDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C17A2B1CD7877E0718A4F8C /* Pods-GaganDemoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaganDemoApp.app/GaganDemoApp";
+			};
+			name = Release;
+		};
+		EAAB661B26BF7DB300D0EDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD0C77DDDBF1F1FD54EEF59 /* Pods-GaganDemoApp-GaganDemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaganDemoApp;
+			};
+			name = Debug;
+		};
+		EAAB661C26BF7DB300D0EDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F510A32B8D84017772E2BAF /* Pods-GaganDemoApp-GaganDemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaganDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GaganDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaganDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAB65E226BF7DAC00D0EDCA /* Build configuration list for PBXProject "GaganDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAB661226BF7DB300D0EDCA /* Debug */,
+				EAAB661326BF7DB300D0EDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAB661426BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAB661526BF7DB300D0EDCA /* Debug */,
+				EAAB661626BF7DB300D0EDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAB661726BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAB661826BF7DB300D0EDCA /* Debug */,
+				EAAB661926BF7DB300D0EDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAB661A26BF7DB300D0EDCA /* Build configuration list for PBXNativeTarget "GaganDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAB661B26BF7DB300D0EDCA /* Debug */,
+				EAAB661C26BF7DB300D0EDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAAB65F326BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAAB65F426BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodel */,
+			);
+			currentVersion = EAAB65F426BF7DAC00D0EDCA /* GaganDemoApp.xcdatamodel */;
+			path = GaganDemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAAB65DF26BF7DAC00D0EDCA /* Project object */;
+}

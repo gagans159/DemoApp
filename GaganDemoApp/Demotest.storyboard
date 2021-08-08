@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Page View Controller-->
+        <scene sceneID="XYe-cz-jz4">
+            <objects>
+                <viewController storyboardIdentifier="FirstPageViewController" id="Tdg-Mg-aPE" customClass="FirstPageViewController" customModule="GaganDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="anC-Oa-7Kk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hqr-4j-I2s">
+                                <rect key="frame" x="0.0" y="60" width="414" height="786"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FruitsTableViewCell" rowHeight="74" id="k1X-IW-3TQ" customClass="FruitsTableViewCell" customModule="GaganDemoApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="74"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k1X-IW-3TQ" id="2xO-Vt-Kh6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="74"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfF-CP-Hbk">
+                                                    <rect key="frame" x="28" y="27" width="358" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="QfF-CP-Hbk" firstAttribute="leading" secondItem="2xO-Vt-Kh6" secondAttribute="leadingMargin" constant="8" id="JHU-pi-5Ru"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="QfF-CP-Hbk" secondAttribute="trailing" constant="8" id="Nbm-M0-eYc"/>
+                                                <constraint firstItem="QfF-CP-Hbk" firstAttribute="top" secondItem="2xO-Vt-Kh6" secondAttribute="topMargin" constant="16" id="VfW-bi-lXv"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QfF-CP-Hbk" secondAttribute="bottom" constant="8" id="wUz-j9-wo9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="labeltext" destination="QfF-CP-Hbk" id="Dvh-JF-Cvb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Tdg-Mg-aPE" id="4G2-UB-tbg"/>
+                                    <outlet property="delegate" destination="Tdg-Mg-aPE" id="RfZ-nI-jVC"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2xt-6m-Sgg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hqr-4j-I2s" firstAttribute="leading" secondItem="2xt-6m-Sgg" secondAttribute="leading" id="AmS-5A-5kR"/>
+                            <constraint firstItem="2xt-6m-Sgg" firstAttribute="bottom" secondItem="hqr-4j-I2s" secondAttribute="bottom" constant="16" id="Q3K-xm-RDd"/>
+                            <constraint firstItem="hqr-4j-I2s" firstAttribute="top" secondItem="2xt-6m-Sgg" secondAttribute="top" constant="16" id="kxn-na-1ww"/>
+                            <constraint firstItem="2xt-6m-Sgg" firstAttribute="trailing" secondItem="hqr-4j-I2s" secondAttribute="trailing" id="nVz-Yk-3X5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fruitsTableView" destination="hqr-4j-I2s" id="2OF-SV-PYk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYU-13-b5O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="71.651785714285708"/>
+        </scene>
+        <!--Second Page View Controller-->
+        <scene sceneID="ZLS-FI-m7j">
+            <objects>
+                <viewController storyboardIdentifier="SecondPageViewController" id="KFm-uy-R9P" customClass="SecondPageViewController" customModule="GaganDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s7m-5u-wIU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Yz-cu-vi7">
+                                <rect key="frame" x="8" y="60" width="398" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="D10-vg-3xv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Fx-KX-xTW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Fx-KX-xTW" firstAttribute="trailing" secondItem="3Yz-cu-vi7" secondAttribute="trailing" constant="8" id="Ujt-1Y-GI8"/>
+                            <constraint firstItem="3Yz-cu-vi7" firstAttribute="leading" secondItem="6Fx-KX-xTW" secondAttribute="leading" constant="8" id="WbE-Iq-iA2"/>
+                            <constraint firstItem="3Yz-cu-vi7" firstAttribute="top" secondItem="6Fx-KX-xTW" secondAttribute="top" constant="16" id="ZdW-9o-1wp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="3Yz-cu-vi7" id="iAI-Qu-0zk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTV-DF-PgB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
