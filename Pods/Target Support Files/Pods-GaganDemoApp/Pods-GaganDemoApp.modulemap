@@ -1,0 +1,6 @@
+module Pods_GaganDemoApp {
+  umbrella header "Pods-GaganDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
